@@ -2,7 +2,7 @@ version: '3.8'
 services:
   app:
     container_name: express-node-app-container
-    image: amryami/test-docker
+    # image: amryami/test-docker
     ports:
       - 4000:4000
     env_file:
