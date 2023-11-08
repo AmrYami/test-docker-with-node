@@ -59,7 +59,7 @@ mongoose
     });
     app.get('/data', async (req, res) => {
        const val = await redisClient.get('key');
-         res.send(`<h1>hello amro yami dev</h1><h2>${val}</h2>`);
+         res.send(`<h1>welcome amro yami dev</h1><h2>${val}</h2>`);
     });
 
 app.listen(PORT, () => console.log(`app is up and running on port : ${PORT}`))
