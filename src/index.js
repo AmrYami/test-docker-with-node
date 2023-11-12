@@ -55,7 +55,7 @@ mongoose
 
     app.get('/', (req, res) => {
         redisClient.set('key', 'value');
-         res.send('<h1>hello amro yami dev NODE AWS</h1>');
+         res.send('<h1>hello amro yami dev NODE AWS using docker hub</h1>');
     });
     app.get('/data', async (req, res) => {
        const val = await redisClient.get('key');
